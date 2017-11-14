@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC933E851EE88D2200B47ED8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC933E841EE88D2200B47ED8 /* AppDelegate.swift */; };
+		AC933E871EE88D2200B47ED8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC933E861EE88D2200B47ED8 /* ViewController.swift */; };
+		AC933E8A1EE88D2200B47ED8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC933E881EE88D2200B47ED8 /* Main.storyboard */; };
+		AC933E8C1EE88D2300B47ED8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC933E8B1EE88D2300B47ED8 /* Assets.xcassets */; };
+		AC933E8F1EE88D2300B47ED8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC933E8D1EE88D2300B47ED8 /* LaunchScreen.storyboard */; };
+		AC933E9A1EE88D2300B47ED8 /* DayOfTimersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC933E991EE88D2300B47ED8 /* DayOfTimersTests.swift */; };
+		AC933EA51EE88D2300B47ED8 /* DayOfTimersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC933EA41EE88D2300B47ED8 /* DayOfTimersUITests.swift */; };
+		AC933EB31EE893EB00B47ED8 /* dayOfTimesObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC933EB21EE893EB00B47ED8 /* dayOfTimesObjects.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC933E961EE88D2300B47ED8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC933E791EE88D2100B47ED8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC933E801EE88D2100B47ED8;
+			remoteInfo = DayOfTimers;
+		};
+		AC933EA11EE88D2300B47ED8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC933E791EE88D2100B47ED8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC933E801EE88D2100B47ED8;
+			remoteInfo = DayOfTimers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC933E811EE88D2100B47ED8 /* DayOfTimers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DayOfTimers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC933E841EE88D2200B47ED8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC933E861EE88D2200B47ED8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC933E891EE88D2200B47ED8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC933E8B1EE88D2300B47ED8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC933E8E1EE88D2300B47ED8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC933E901EE88D2300B47ED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC933E951EE88D2300B47ED8 /* DayOfTimersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayOfTimersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC933E991EE88D2300B47ED8 /* DayOfTimersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayOfTimersTests.swift; sourceTree = "<group>"; };
+		AC933E9B1EE88D2300B47ED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC933EA01EE88D2300B47ED8 /* DayOfTimersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DayOfTimersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC933EA41EE88D2300B47ED8 /* DayOfTimersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayOfTimersUITests.swift; sourceTree = "<group>"; };
+		AC933EA61EE88D2400B47ED8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC933EB21EE893EB00B47ED8 /* dayOfTimesObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dayOfTimesObjects.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC933E7E1EE88D2100B47ED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC933E921EE88D2300B47ED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC933E9D1EE88D2300B47ED8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC933E781EE88D2100B47ED8 = {
+			isa = PBXGroup;
+			children = (
+				AC933E831EE88D2200B47ED8 /* DayOfTimers */,
+				AC933E981EE88D2300B47ED8 /* DayOfTimersTests */,
+				AC933EA31EE88D2300B47ED8 /* DayOfTimersUITests */,
+				AC933E821EE88D2100B47ED8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC933E821EE88D2100B47ED8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC933E811EE88D2100B47ED8 /* DayOfTimers.app */,
+				AC933E951EE88D2300B47ED8 /* DayOfTimersTests.xctest */,
+				AC933EA01EE88D2300B47ED8 /* DayOfTimersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC933E831EE88D2200B47ED8 /* DayOfTimers */ = {
+			isa = PBXGroup;
+			children = (
+				AC933E841EE88D2200B47ED8 /* AppDelegate.swift */,
+				AC933E861EE88D2200B47ED8 /* ViewController.swift */,
+				AC933E881EE88D2200B47ED8 /* Main.storyboard */,
+				AC933EB21EE893EB00B47ED8 /* dayOfTimesObjects.swift */,
+				AC933E8B1EE88D2300B47ED8 /* Assets.xcassets */,
+				AC933E8D1EE88D2300B47ED8 /* LaunchScreen.storyboard */,
+				AC933E901EE88D2300B47ED8 /* Info.plist */,
+			);
+			path = DayOfTimers;
+			sourceTree = "<group>";
+		};
+		AC933E981EE88D2300B47ED8 /* DayOfTimersTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC933E991EE88D2300B47ED8 /* DayOfTimersTests.swift */,
+				AC933E9B1EE88D2300B47ED8 /* Info.plist */,
+			);
+			path = DayOfTimersTests;
+			sourceTree = "<group>";
+		};
+		AC933EA31EE88D2300B47ED8 /* DayOfTimersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC933EA41EE88D2300B47ED8 /* DayOfTimersUITests.swift */,
+				AC933EA61EE88D2400B47ED8 /* Info.plist */,
+			);
+			path = DayOfTimersUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC933E801EE88D2100B47ED8 /* DayOfTimers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC933EA91EE88D2400B47ED8 /* Build configuration list for PBXNativeTarget "DayOfTimers" */;
+			buildPhases = (
+				AC933E7D1EE88D2100B47ED8 /* Sources */,
+				AC933E7E1EE88D2100B47ED8 /* Frameworks */,
+				AC933E7F1EE88D2100B47ED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DayOfTimers;
+			productName = DayOfTimers;
+			productReference = AC933E811EE88D2100B47ED8 /* DayOfTimers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC933E941EE88D2300B47ED8 /* DayOfTimersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC933EAC1EE88D2400B47ED8 /* Build configuration list for PBXNativeTarget "DayOfTimersTests" */;
+			buildPhases = (
+				AC933E911EE88D2300B47ED8 /* Sources */,
+				AC933E921EE88D2300B47ED8 /* Frameworks */,
+				AC933E931EE88D2300B47ED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC933E971EE88D2300B47ED8 /* PBXTargetDependency */,
+			);
+			name = DayOfTimersTests;
+			productName = DayOfTimersTests;
+			productReference = AC933E951EE88D2300B47ED8 /* DayOfTimersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC933E9F1EE88D2300B47ED8 /* DayOfTimersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC933EAF1EE88D2400B47ED8 /* Build configuration list for PBXNativeTarget "DayOfTimersUITests" */;
+			buildPhases = (
+				AC933E9C1EE88D2300B47ED8 /* Sources */,
+				AC933E9D1EE88D2300B47ED8 /* Frameworks */,
+				AC933E9E1EE88D2300B47ED8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC933EA21EE88D2300B47ED8 /* PBXTargetDependency */,
+			);
+			name = DayOfTimersUITests;
+			productName = DayOfTimersUITests;
+			productReference = AC933EA01EE88D2300B47ED8 /* DayOfTimersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC933E791EE88D2100B47ED8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Quinton Quaye";
+				TargetAttributes = {
+					AC933E801EE88D2100B47ED8 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 4JD3TEP8Z6;
+						ProvisioningStyle = Automatic;
+					};
+					AC933E941EE88D2300B47ED8 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 4JD3TEP8Z6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC933E801EE88D2100B47ED8;
+					};
+					AC933E9F1EE88D2300B47ED8 = {
+						CreatedOnToolsVersion = 8.3;
+						DevelopmentTeam = 4JD3TEP8Z6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC933E801EE88D2100B47ED8;
+					};
+				};
+			};
+			buildConfigurationList = AC933E7C1EE88D2100B47ED8 /* Build configuration list for PBXProject "DayOfTimers" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC933E781EE88D2100B47ED8;
+			productRefGroup = AC933E821EE88D2100B47ED8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC933E801EE88D2100B47ED8 /* DayOfTimers */,
+				AC933E941EE88D2300B47ED8 /* DayOfTimersTests */,
+				AC933E9F1EE88D2300B47ED8 /* DayOfTimersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC933E7F1EE88D2100B47ED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC933E8F1EE88D2300B47ED8 /* LaunchScreen.storyboard in Resources */,
+				AC933E8C1EE88D2300B47ED8 /* Assets.xcassets in Resources */,
+				AC933E8A1EE88D2200B47ED8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC933E931EE88D2300B47ED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC933E9E1EE88D2300B47ED8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC933E7D1EE88D2100B47ED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC933EB31EE893EB00B47ED8 /* dayOfTimesObjects.swift in Sources */,
+				AC933E871EE88D2200B47ED8 /* ViewController.swift in Sources */,
+				AC933E851EE88D2200B47ED8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC933E911EE88D2300B47ED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC933E9A1EE88D2300B47ED8 /* DayOfTimersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC933E9C1EE88D2300B47ED8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC933EA51EE88D2300B47ED8 /* DayOfTimersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC933E971EE88D2300B47ED8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC933E801EE88D2100B47ED8 /* DayOfTimers */;
+			targetProxy = AC933E961EE88D2300B47ED8 /* PBXContainerItemProxy */;
+		};
+		AC933EA21EE88D2300B47ED8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC933E801EE88D2100B47ED8 /* DayOfTimers */;
+			targetProxy = AC933EA11EE88D2300B47ED8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC933E881EE88D2200B47ED8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC933E891EE88D2200B47ED8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC933E8D1EE88D2300B47ED8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC933E8E1EE88D2300B47ED8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC933EA71EE88D2400B47ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC933EA81EE88D2400B47ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC933EAA1EE88D2400B47ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4JD3TEP8Z6;
+				INFOPLIST_FILE = DayOfTimers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = theQ.thePlayAround;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AC933EAB1EE88D2400B47ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 4JD3TEP8Z6;
+				INFOPLIST_FILE = DayOfTimers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = theQ.thePlayAround;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AC933EAD1EE88D2400B47ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4JD3TEP8Z6;
+				INFOPLIST_FILE = DayOfTimersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = theQ.DayOfTimersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DayOfTimers.app/DayOfTimers";
+			};
+			name = Debug;
+		};
+		AC933EAE1EE88D2400B47ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 4JD3TEP8Z6;
+				INFOPLIST_FILE = DayOfTimersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = theQ.DayOfTimersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DayOfTimers.app/DayOfTimers";
+			};
+			name = Release;
+		};
+		AC933EB01EE88D2400B47ED8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4JD3TEP8Z6;
+				INFOPLIST_FILE = DayOfTimersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = theQ.DayOfTimersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DayOfTimers;
+			};
+			name = Debug;
+		};
+		AC933EB11EE88D2400B47ED8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 4JD3TEP8Z6;
+				INFOPLIST_FILE = DayOfTimersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = theQ.DayOfTimersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = DayOfTimers;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC933E7C1EE88D2100B47ED8 /* Build configuration list for PBXProject "DayOfTimers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC933EA71EE88D2400B47ED8 /* Debug */,
+				AC933EA81EE88D2400B47ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC933EA91EE88D2400B47ED8 /* Build configuration list for PBXNativeTarget "DayOfTimers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC933EAA1EE88D2400B47ED8 /* Debug */,
+				AC933EAB1EE88D2400B47ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC933EAC1EE88D2400B47ED8 /* Build configuration list for PBXNativeTarget "DayOfTimersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC933EAD1EE88D2400B47ED8 /* Debug */,
+				AC933EAE1EE88D2400B47ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC933EAF1EE88D2400B47ED8 /* Build configuration list for PBXNativeTarget "DayOfTimersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC933EB01EE88D2400B47ED8 /* Debug */,
+				AC933EB11EE88D2400B47ED8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC933E791EE88D2100B47ED8 /* Project object */;
+}
